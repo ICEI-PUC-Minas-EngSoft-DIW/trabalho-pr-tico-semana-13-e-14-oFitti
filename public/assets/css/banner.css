@@ -1,0 +1,46 @@
+
+.banner-promocional .carousel {
+    max-height: 400px;
+    overflow: hidden;
+    border-radius: 8px; 
+    background-color: #333; 
+}
+
+.banner-promocional .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    min-height: 200px; 
+    max-height: 400px;
+}
+
+.banner-promocional .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    border-radius: 5px;
+    bottom: 1.25rem;
+}
+
+
+.banner-promocional .carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.banner-promocional .carousel-indicators .active {
+    background-color: #ffffff; 
+}
+
+.banner-promocional .carousel-control-prev-icon,
+.banner-promocional .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    padding: 1.2rem;
+    filter: invert(1) grayscale(100) brightness(200%);
+}
+
+
