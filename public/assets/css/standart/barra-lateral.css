@@ -1,0 +1,112 @@
+
+.barra-lateral {
+    width: 240px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    padding: 16px 0;
+}
+
+.navegacao-lateral .menu-lateral {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.navegacao-lateral .menu-lateral li {
+    margin-bottom: 2px;
+}
+
+.link-lateral {
+    display: block;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: #606060;
+    transition: background-color 0.2s ease;
+}
+
+.link-lateral:hover {
+    background-color: #f0f0f0;
+}
+
+.link-lateral.ativo {
+    background-color: #e3f2fd;
+    color: #0878e9;
+}
+
+.secao-inscricoes {
+    padding: 0 24px;
+    border-top: 1px solid #ddd;
+    padding-top: 16px;
+}
+
+.abas-navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo-inscricoes {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: #606060;
+}
+
+.canais-inscritos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+@media (min-width: 1025px) {
+
+    .barra-lateral {
+        position: sticky;
+        top: calc(10vh - 60px);
+        height: calc(100vh - 120px);
+        width: var(--sidebar-w);
+        overflow-y: auto;
+        border-right: 1px solid #ddd;
+        background-color: #fff;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .abas-navegacao {
+        justify-content: flex-start;
+        gap: 16px;
+        padding: 0 12px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        max-width: 100%;
+    }
+
+    .barra-lateral {
+        position: static;
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        padding: 8px 0;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .navegacao-lateral .menu-lateral {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4px 0;
+        margin-bottom: 12px;
+    }
+
+    .link-lateral {
+        padding: 10px 16px;
+    }
+    .canais-inscritos {
+        flex-direction: row;
+        gap: 8px;
+    }
+
+}

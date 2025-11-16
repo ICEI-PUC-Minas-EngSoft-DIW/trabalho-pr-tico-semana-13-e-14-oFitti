@@ -1,0 +1,16 @@
+
+
+.container-grafico {
+    width: 90%;
+    max-width: 95%; 
+    margin: 30px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+canvas {
+    width: 100% !important;
+    height: auto !important;
+}

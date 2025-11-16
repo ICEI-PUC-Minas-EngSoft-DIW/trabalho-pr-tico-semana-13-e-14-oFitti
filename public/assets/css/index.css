@@ -1,0 +1,169 @@
+
+.banner-promocional .carousel {
+    max-height: 400px;
+    overflow: hidden;
+    border-radius: 8px; 
+    background-color: #333; 
+}
+
+.banner-promocional .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    min-height: 200px; 
+    max-height: 400px;
+}
+
+.banner-promocional .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    border-radius: 5px;
+    bottom: 1.25rem;
+}
+
+.banner-promocional .carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.banner-promocional .carousel-indicators .active {
+    background-color: #ffffff; 
+}
+
+.banner-promocional .carousel-control-prev-icon,
+.banner-promocional .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    padding: 1.2rem;
+    filter: invert(1) grayscale(100) brightness(200%);
+}
+
+.item-canal {
+    width: 40px;
+    height: 40px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.banner-promocional {
+    margin-bottom: 32px;
+}
+
+.secao-videos {
+    margin-bottom: 40px;
+}
+
+.titulo-secao {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.card-video {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: box-shadow 0.2s ease;
+    height: 100%; 
+}
+
+.card-video a {
+    text-decoration: none;
+}
+
+.card-video:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.miniatura-video {
+    width: 100%;
+    height: 120px; 
+    object-fit: cover;
+    display: block;
+}
+
+.informacoes-video {
+    padding: 12px;
+}
+
+.titulo-video {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: #333;
+    line-height: 1.3;
+}
+
+.nome-canal {
+    font-size: 13px;
+    color: #606060;
+    margin-bottom: 4px;
+}
+
+.metadados-video {
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+    color: #909090;
+}
+
+@media (max-width: 768px) {
+
+    .navegacao-principal {
+        top: 56px;
+    }
+
+    .aba-menu {
+        white-space: nowrap;
+        padding: 10px 12px;
+    }
+
+    .envoltorio-conteudo {
+        display: block;
+        min-height: auto;
+    }
+
+    .link-lateral {
+        padding: 10px 16px;
+    }
+
+
+}
+
+@media (max-width: 560px) {
+
+    .acoes-usuario {
+        gap: 6px;
+    }
+
+    .acoes-usuario .botao-acao {
+        padding: 6px 8px;
+        font-size: 13px;
+    }
+
+    .acoes-usuario .botao-acao:nth-child(n+2) {
+        display: none;
+    }
+
+    .miniatura-video {
+        height: 180px;
+    }
+
+    .titulo-video {
+        font-size: 15px;
+    }
+
+    .nome-canal {
+        font-size: 13px;
+    }
+}

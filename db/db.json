@@ -4,12 +4,12 @@
       "id": 1,
       "titulo": "Pinheiros no Alasca: Uma Jornada Gelada",
       "canal": "Planeta Selvagem",
-      "visualizacoes": "1.2 mi de visualizações",
+      "visualizacoes": 1200000,
       "postadoHa": "há 2 semanas",
       "thumbnail": "https://picsum.photos/id/10/400/225",
       "banner": "https://picsum.photos/id/10/2000/400",
       "videoUrl": "https://www.youtube.com/embed/lazGUvZEEYs",
-      "likes": "98 mil",
+      "likes": 98000,
       "descricao": "Explore as vastas e silenciosas florestas de pinheiros do Alasca. Neste documentário, seguimos a vida selvagem que depende dessas árvores milenares para sobreviver aos invernos rigorosos. Uma cinematografia de tirar o fôlego e uma história de resiliência.",
       "comentarios": [
         {
@@ -26,12 +26,12 @@
       "id": 2,
       "titulo": "Técnica Pomodoro: Foco Máximo nos Estudos",
       "canal": "Mente Brilhante",
-      "visualizacoes": "890 mil visualizações",
+      "visualizacoes": 890000,
       "postadoHa": "há 1 mês",
       "thumbnail": "https://picsum.photos/id/20/400/225",
       "banner": "https://picsum.photos/id/20/2000/400",
       "videoUrl": "https://www.youtube.com/embed/mNBmG24djoY",
-      "likes": "45 mil",
+      "likes": 45000,
       "descricao": "Dificuldade para se concentrar? A Técnica Pomodoro pode ser a solução. Aprenda a usar este método simples de gerenciamento de tempo para dividir suas tarefas em blocos de foco total, aumentando sua produtividade e diminuindo o cansaço mental.",
       "comentarios": [
         {
@@ -47,12 +47,12 @@
     {
       "titulo": "TÍTULO ATUALIZADO: Pinheiros no Alasca",
       "canal": "Planeta Selvagem (Editado)",
-      "visualizacoes": "1.3 mi de visualizações",
+      "visualizacoes": 1300000,
       "postadoHa": "há 2 semanas",
       "thumbnail": "https://picsum.photos/id/10/400/225",
       "banner": "https://picsum.photos/id/10/2000/400",
       "videoUrl": "https://www.youtube.com/embed/lazGUvZEEYs",
-      "likes": "100 mil",
+      "likes": 100000,
       "descricao": "Explore as vastas e silenciosas florestas de pinheiros do Alasca...",
       "comentarios": [
         {
@@ -70,12 +70,12 @@
       "id": 4,
       "titulo": "Relaxando na Praia: Som das Ondas",
       "canal": "Natureza Pura",
-      "visualizacoes": "2.5 mi de visualizações",
+      "visualizacoes": 2500000,
       "postadoHa": "há 1 ano",
       "thumbnail": "https://picsum.photos/id/50/400/225",
       "banner": "https://picsum.photos/id/50/2000/400",
       "videoUrl": "https://www.youtube.com/embed/3xOvIm5EqCY",
-      "likes": "150 mil",
+      "likes": 150000,
       "descricao": "Deixe o estresse para trás com 1 hora do som relaxante das ondas do mar quebrando na areia. Perfeito para meditar, dormir, estudar ou simplesmente para criar um ambiente de paz e tranquilidade.",
       "comentarios": [
         {
@@ -92,12 +92,12 @@
       "id": 5,
       "titulo": "Show Acústico: Sucessos do Rock Nacional",
       "canal": "Estúdio Palco Livre",
-      "visualizacoes": "780 mil visualizações",
+      "visualizacoes": 780000,
       "postadoHa": "há 5 dias",
       "thumbnail": "https://picsum.photos/id/60/400/225",
       "banner": "https://picsum.photos/id/60/2000/400",
       "videoUrl": "https://www.youtube.com/embed/ExEbSN0lUgA",
-      "likes": "65 mil",
+      "likes": 65000,
       "descricao": "Uma apresentação intimista com os maiores sucessos do rock nacional em formato acústico. Uma viagem nostálgica e emocionante pelas canções que marcaram gerações.",
       "comentarios": [
         {
@@ -113,9 +113,9 @@
       "videoUrl": "https://www.youtube.com/watch?v=umaXYEbd5vA",
       "thumbnail": "https://www.valuehost.com.br/blog/wp-content/uploads/2024/07/api-770x515.jpeg.webp",
       "banner": "https://picsum.photos/id/10/2000/400",
-      "visualizacoes": "0 visualizações",
+      "visualizacoes": 100,
       "postadoHa": "agora mesmo",
-      "likes": "0",
+      "likes": 5,
       "comentarios": [],
       "id": 6
     }
