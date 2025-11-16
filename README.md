@@ -9,15 +9,17 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Gustavo Fitipaldi Moreira
+- Matricula: 900609
+- Proposta de projeto escolhida: Clonetube
+- Breve descrição sobre seu projeto: Cópia barata do youtube.
 
 **Print da tela com a implementação**
 
-<< Coloque aqui uma breve explicação da implementação feita nessa etapa>>
+Fiz ajuste no banco de dados para que as informações ficassem em int, e criei graficos de monitoramento para que os canais conseguissem visualizar as metricas de viws e likes de maneira mais agradavel.
 
-<<  COLOQUE A IMAGEM TELA 1 AQUI >>
+![alt text](imgs/image.png)
 
-<<  COLOQUE A IMAGEM TELA 2 AQUI >>
+![alt text](imgs/image-1.png)
+
+![alt text](imgs/image-2.png)
