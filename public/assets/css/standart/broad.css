@@ -12,9 +12,16 @@ body {
     padding-top: 20px;
 }
 
+.envoltorio-conteudo {
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    min-height: calc(100vh - 120px);
+}
+
 .conteudo-principal {
-    padding: 24px;
-    flex: 1;
+    flex-grow: 2;
+    padding: 16px;
 }
 
 :root {
@@ -29,6 +36,11 @@ body {
         grid-template-columns: var(--sidebar-w) 1fr;
         gap: 0;
         min-height: calc(100vh - 120px);
+        flex-direction: row;
+    }
+
+    .conteudo-principal {
+        padding: 24px;
     }
 }
 

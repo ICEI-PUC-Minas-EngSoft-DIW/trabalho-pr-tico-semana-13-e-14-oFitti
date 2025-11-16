@@ -1,26 +1,35 @@
-
 .barra-lateral {
-    width: 240px;
+    width: 100%;
+    height: calc(100% - 60px);
     background-color: #fff;
-    border-right: 1px solid #ddd;
-    padding: 16px 0;
+    padding: 8px 0;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    overflow: visible;
 }
 
 .navegacao-lateral .menu-lateral {
     list-style: none;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px 0;
 }
 
 .navegacao-lateral .menu-lateral li {
-    margin-bottom: 2px;
+    margin-bottom: 0;
 }
 
 .link-lateral {
     display: block;
-    padding: 12px 24px;
+    padding: 10px 16px;
     text-decoration: none;
     color: #606060;
     transition: background-color 0.2s ease;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 14px;
 }
 
 .link-lateral:hover {
@@ -30,83 +39,57 @@
 .link-lateral.ativo {
     background-color: #e3f2fd;
     color: #0878e9;
-}
-
-.secao-inscricoes {
-    padding: 0 24px;
-    border-top: 1px solid #ddd;
-    padding-top: 16px;
-}
-
-.abas-navegacao {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.titulo-inscricoes {
-    font-size: 14px;
     font-weight: 500;
-    margin-bottom: 12px;
-    color: #606060;
-}
-
-.canais-inscritos {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
 }
 
 @media (min-width: 1025px) {
 
     .barra-lateral {
         position: sticky;
-        top: calc(10vh - 60px);
-        height: calc(100vh - 120px);
-        width: var(--sidebar-w);
+        top: 60px;
+        height: calc(100% - 60px);
+        width: 240px;
+        flex-shrink: 0;
         overflow-y: auto;
         border-right: 1px solid #ddd;
-        background-color: #fff;
-    }
-
-}
-
-@media (max-width: 768px) {
-
-    .abas-navegacao {
-        justify-content: flex-start;
-        gap: 16px;
-        padding: 0 12px;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        max-width: 100%;
-    }
-
-    .barra-lateral {
-        position: static;
-        width: 100%;
-        height: auto;
-        overflow: visible;
-        padding: 8px 0;
-        border-right: none;
-        border-bottom: 1px solid #ddd;
+        border-bottom: none;
+        padding: 16px 0;
+        z-index: 90;
     }
 
     .navegacao-lateral .menu-lateral {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 4px 0;
-        margin-bottom: 12px;
+        display: block;
+        margin-bottom: 20px;
+        grid-template-columns: none;
+    }
+
+    .navegacao-lateral .menu-lateral li {
+        margin-bottom: 2px;
     }
 
     .link-lateral {
-        padding: 10px 16px;
-    }
-    .canais-inscritos {
-        flex-direction: row;
-        gap: 8px;
+        padding: 12px 24px;
+        text-align: left;
+        white-space: normal;
+        font-size: 16px;
     }
 
+    .secao-inscricoes {
+        display: block;
+        padding: 0 24px;
+        padding-top: 16px;
+        border-top: 1px solid #ddd;
+    }
+
+    .titulo-inscricoes {
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 12px;
+        color: #606060;
+    }
+
+    .canais-inscritos {
+        flex-direction: column;
+        gap: 8px;
+    }
 }

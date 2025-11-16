@@ -4,8 +4,9 @@
     min-height: calc(100vh - 120px);
 }
 
-.logo li {
-    height: auto;
+.logo {
+  text-decoration: none; 
+  color: #000;       
 }
 
 .container-cabecalho {
@@ -19,8 +20,6 @@
 .cabecalho-principal {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
-    padding: 8px 16px;
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -34,6 +33,7 @@
     max-width: 600px;
     margin: 0 40px;
 }
+
 .caixa-busca {
     flex: 1;
     padding: 8px 12px;
@@ -68,6 +68,7 @@
 @media (min-width: 1025px) {
     .envoltorio-conteudo {
         display: grid;
+        position: absolute;
         grid-template-columns: var(--sidebar-w) 1fr;
         gap: 0;
         min-height: calc(100vh - 120px);
